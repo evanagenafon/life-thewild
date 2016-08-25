@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+gulpfile.js
+package.json
+dist
+.git
+scss
+images
