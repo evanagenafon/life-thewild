@@ -129,6 +129,14 @@ body {
   width: 100%;
 }
 
+.article table {
+  width: 100%;
+}
+
+.article table tr td:nth-child(even) {
+  text-align: right;
+}
+
 .price #header-in {
   width: 740px;
 }
