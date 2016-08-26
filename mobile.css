@@ -3,6 +3,7 @@
 /*ここにモバイルのスタイルを書く*/
 #main .entry{
     width: 100%;
+    margin: 0 auto 20px;
 }
 
 .entry-read a, .related-entry-read a {
