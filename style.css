@@ -54,6 +54,7 @@ body {
 #main .entry-thumb img {
   width: 100%;
   height: auto;
+  border-radius: 3px 3px 0 0;
 }
 
 #main h2 a {
@@ -77,8 +78,31 @@ body {
   font-size: 1.2rem;
 }
 
+#sidebar .widget a {
+  color: #6998E0;
+}
+
+#sidebar .widget a:hover {
+  color: #CC0033;
+}
+
+.tagcloud a {
+  border: 1px solid #6998E0;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
 #footer {
   background: #F2D86C;
+}
+
+#footer .credit a {
+  text-decoration: underline;
+}
+
+#footer .credit a:hover {
+  color: #CC0033;
 }
 
 #footer-navi ul {
