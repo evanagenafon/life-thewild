@@ -77,12 +77,20 @@ body {
   font-size: 1.2rem;
 }
 
+#footer {
+  background: #F2D86C;
+}
+
 #footer-navi ul {
   padding-left: 0px;
 }
 
 #copyright address {
   font-style: normal;
+}
+
+#page-top a {
+  background: #F2D86C;
 }
 
 .article h2 {
