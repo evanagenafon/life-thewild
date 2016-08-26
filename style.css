@@ -4,6 +4,7 @@ Theme Name: Simplicity2 child
 Template:   simplicity2
 Version:    20151225
 */
+/*
 html {
   font-size: 62.5%;
 }
@@ -33,6 +34,10 @@ body {
   margin: 10px 1% 0;
   line-height: 1.5;
   color: #555;
+}
+
+#main .entry h2 {
+  padding: 0 5px;
 }
 
 #main .entry:nth-child(odd) {
