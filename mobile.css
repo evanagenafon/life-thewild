@@ -1,6 +1,28 @@
 @charset "UTF-8";
 
 /*ここにモバイルのスタイルを書く*/
+
+.price #header-in{
+  width: 100%;
+}
+.price #navi-in{
+  width: 100%;
+}
+
+.price #header-in #site-title{
+  font-size: 20px;
+}
+
+.price #header-in #site-title a{
+  font-size:20px;
+}
+
+#price-body #body-in{
+  width: 100%;
+}
+
+
+
 #main .entry{
     width: 100%;
     margin: 0 auto 20px;
