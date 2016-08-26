@@ -77,6 +77,10 @@ body {
   font-size: 1.2rem;
 }
 
+#footer-navi ul {
+  padding-left: 0px;
+}
+
 #copyright address {
   font-style: normal;
 }
