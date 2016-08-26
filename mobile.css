@@ -9,3 +9,7 @@
 .entry-read a, .related-entry-read a {
 border-radius: 0px;
 }
+
+.price  #site-title a{
+      font-size: 30px;
+    }
