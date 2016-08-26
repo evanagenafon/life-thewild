@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /*ここにモバイルのスタイルを書く*/
+#main .entry{
+    width: 100%;
+}
+
+.entry-read a, .related-entry-read a {
+border-radius: 0px;
+}
