@@ -128,3 +128,23 @@ body {
 .article img {
   width: 100%;
 }
+
+.price #header-in {
+  width: 740px;
+}
+
+.price #header-in #site-title a {
+  font-size: 49px;
+}
+
+.price #navi-in {
+  width: 740px;
+}
+
+#price-body {
+  margin-top: 20px;
+}
+
+#price-body #body-in {
+  width: 740px;
+}
