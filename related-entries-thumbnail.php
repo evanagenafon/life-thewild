@@ -12,7 +12,7 @@ $query = new WP_Query( $args ); ?>
         <img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>" />
         <?php endif; ?>
         </a>
-      </div><!-- /.related-entry-thumb -->
+      </div><!-- /.relate-entry-thumb -->
 
       <div class="related-entry-content">
         <h3 class="related-entry-title">
