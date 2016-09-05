@@ -36,6 +36,7 @@ body {
 }
 
 #main .entry h2 {
+  line-height: 100%;
   padding: 0 5px;
 }
 

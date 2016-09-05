@@ -60,6 +60,8 @@ endif; ?>
               <div class="alignleft top-title-catchphrase">
                 <?php get_template_part('header-logo');?>
               </div>
+              <div class="alignright top-sns-follows">
+              </div>
             </div><!-- /#h-top -->
           </div><!-- /#header-in -->
         </div><!-- /#header -->
