@@ -24,3 +24,6 @@ if(empty($first_img)){ //Defines a default image
 }
 return $first_img;
 }
+
+//アイキャッチ画像サイズの関数
+add_image_size('thumb324', 324, 216, true);

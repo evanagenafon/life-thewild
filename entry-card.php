@@ -3,7 +3,7 @@
   <figure class="entry-thumb">
     <?php if ( is_entry_card_style() ): //デフォルトのサムネイルカード表示の場合?>
       <?php if ( has_post_thumbnail() ): // サムネイルを持っているとき ?>
-        <a href="<?php the_permalink(); ?>" class="entry-image entry-image-link" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'thumb150', array('class' => 'entry-thumnail', 'alt' => get_the_title()) ); ?></a>
+        <a href="<?php the_permalink(); ?>" class="entry-image entry-image-link" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'thumb324', array('class' => 'entry-thumnail', 'alt' => get_the_title()) ); ?></a>
       <?php else: // サムネイルを持っていない ?>
         <a href="<?PHP the_permalink(); ?>"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>" /></a>
       <?php endif; ?>
