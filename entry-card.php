@@ -5,7 +5,7 @@
       <?php if ( has_post_thumbnail() ): // サムネイルを持っているとき ?>
         <a href="<?php the_permalink(); ?>" class="entry-image entry-image-link" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'thumb324', array('class' => 'entry-thumnail', 'alt' => get_the_title()) ); ?></a>
       <?php else: // サムネイルを持っていない ?>
-        <a href="<?PHP the_permalink(); ?>"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>" /></a>
+        <a href="<?PHP the_permalink(); ?>"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>" width="324" height="216" /></a>
       <?php endif; ?>
     <?php else: //大きなサムネイルカードの場合?>
       <?php if ( has_post_thumbnail() ): // サムネイルを持っているとき
