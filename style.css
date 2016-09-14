@@ -153,38 +153,51 @@ img {
   text-align: right;
 }
 
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
 .DT {
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
   float: left;
   background: url(images/dt_frame.png) no-repeat;
   background-size: contain;
   position: relative;
-  padding-top: 64.3%;
+  padding-top: 32%;
 }
 
 .DT div {
-  width: 86.7%;
+  width: 86.5%;
   height: 75.5%;
   overflow: scroll;
   position: absolute;
-  top: 4.9%;
-  left: 6.6%;
+  top: 5%;
+  left: 6.9%;
 }
 
 .SP {
-  width: 250px;
-  height: 452px;
+  width: 30%;
   margin-left: 5%;
+  padding-top: 54%;
+  position: relative;
   box-sizing: border-box;
   float: left;
   background: url(images/sp_frame.png) no-repeat;
   background-size: contain;
-  padding: 58px 18px;
 }
 
 .SP div {
-  height: 331px;
+  width: 85.5%;
+  height: 73.7%;
+  top: 12.8%;
+  left: 7.4%;
+  position: absolute;
   overflow: scroll;
 }
 

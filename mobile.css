@@ -2,6 +2,38 @@
 
 /*ここにモバイルのスタイルを書く*/
 
+/*ポートフォリオここから*/
+.left,.right{
+float: none;
+width: 100%;
+}
+
+.DT{
+  width: 100%;
+  padding-top: 64%;
+  margin-bottom: 30px;
+}
+
+.DT div{
+  width: 86.6%;
+  height: 75.8%;
+  top: 5%;
+  left: 6.7%;
+}
+
+.SP{
+  width: 100%;
+  padding-top: 180%;
+  margin-left: 0;
+}
+
+.SP div{
+  width: 85.8%;
+  height: 73.9%;
+  top: 12.7%;
+  left: 7%;
+}
+/*ポートフォリオ終わり*/
 .price #header-in{
   width: 100%;
 }
