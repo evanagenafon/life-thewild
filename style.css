@@ -154,13 +154,13 @@ img {
 }
 
 .DT {
-  width: 70%;
+  width: 100%;
   box-sizing: border-box;
   float: left;
   background: url(images/dt_frame.png) no-repeat;
   background-size: contain;
   position: relative;
-  padding-top: 45%;
+  padding-top: 64.3%;
 }
 
 .DT div {
