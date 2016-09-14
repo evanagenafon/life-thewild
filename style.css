@@ -153,6 +153,41 @@ img {
   text-align: right;
 }
 
+.DT {
+  width: 700px;
+  height: 450px;
+  box-sizing: border-box;
+  padding: 21px 46px;
+  float: left;
+  background: url(images/dt_frame.png) no-repeat;
+  background-size: contain;
+}
+
+.DT div {
+  overflow: scroll;
+  height: 342px;
+}
+
+.SP {
+  width: 250px;
+  height: 452px;
+  margin-left: 5%;
+  box-sizing: border-box;
+  float: left;
+  background: url(images/sp_frame.png) no-repeat;
+  background-size: contain;
+  padding: 58px 18px;
+}
+
+.SP div {
+  height: 331px;
+  overflow: scroll;
+}
+
+.clear {
+  clear: both;
+}
+
 .price #header-in {
   width: 740px;
 }
