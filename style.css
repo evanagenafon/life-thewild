@@ -154,18 +154,22 @@ img {
 }
 
 .DT {
-  width: 700px;
-  height: 450px;
+  width: 70%;
   box-sizing: border-box;
-  padding: 21px 46px;
   float: left;
   background: url(images/dt_frame.png) no-repeat;
   background-size: contain;
+  position: relative;
+  padding-top: 45%;
 }
 
 .DT div {
+  width: 86.7%;
+  height: 75.5%;
   overflow: scroll;
-  height: 342px;
+  position: absolute;
+  top: 4.9%;
+  left: 6.6%;
 }
 
 .SP {
