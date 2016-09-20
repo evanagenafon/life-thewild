@@ -155,11 +155,16 @@ img {
 
 .left {
   float: left;
+  box-sizing: border-box;
   width: 50%;
 }
 
 .right {
   float: right;
+}
+
+.pl {
+  padding-left: 30px;
 }
 
 .DT {
@@ -185,6 +190,7 @@ img {
   width: 30%;
   margin-left: 5%;
   padding-top: 54%;
+  margin-bottom: 30px;
   position: relative;
   box-sizing: border-box;
   float: left;
