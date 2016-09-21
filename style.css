@@ -13,10 +13,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-img {
-  max-width: none;
-}
-
 #site-title {
   font-size: 50px;
 }
@@ -24,6 +20,10 @@ img {
 #site-title a {
   font-size: 49px;
   font-weight: bold;
+}
+
+.type-page .post-meta {
+  display: none;
 }
 
 #main .entry {
@@ -139,10 +139,6 @@ img {
   border-left: 10px solid #6998E0;
   padding: 15px;
   background: #F7F7F7;
-}
-
-.article img {
-  width: 100%;
 }
 
 .article table {
