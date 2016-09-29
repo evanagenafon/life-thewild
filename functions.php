@@ -27,3 +27,12 @@ return $first_img;
 
 //アイキャッチ画像サイズの関数
 add_image_size('thumb324', 324, 216, true);
+
+
+//ロゴのcss
+function my_custom_login_logo() {
+  echo '<style type="text/css">
+body #login h1 a { background-size:contain; }
+</style>';
+}
+ add_action('login_head', 'my_custom_login_logo');
